@@ -1,0 +1,322 @@
+#Menu{
+
+color: white;
+
+}
+
+#Servicio{
+
+color: white;
+
+}
+
+.dropdown-menu{
+
+background-color: #6c33da;
+color: rgb(255, 255, 255);
+border: none;
+border-radius:0px 0px 10px 10px;
+
+}
+
+
+.dropdown-item{
+
+    color: white;
+
+}
+
+.dropdown-item:hover{
+
+background-color: #fed70d;
+color: #000000;
+
+}
+
+#Submenu:hover{
+
+background-color: #fed70d;
+color: #000000;
+border-radius: 30px;
+width: 300px;
+margin: auto;
+}
+
+#Oferta{
+
+color: black;
+background-color: #fed70d;
+border-radius: 30px;
+padding: 8px 20px;
+}
+
+#Contact{
+margin-left: 10px;
+color: black;
+background-color: #fed70d;
+border-radius: 30px;
+padding: 8px 20px;
+}
+
+
+#Oferta2{
+
+color: black;
+background-color: #fed70d;
+border-radius: 30px;
+width: 300px;
+margin: auto;
+}
+
+#Contact2{
+color: black;
+background-color: #fed70d;
+border-radius: 30px;
+width: 300px;
+margin: auto;
+}
+
+
+  
+
+#Diseño:hover{
+
+background-color: #ebebeb;
+
+}
+
+
+
+
+
+#days{
+
+background-color: #6c33da;
+padding: 10px;
+border-radius: 20px;
+color: white;
+
+}
+
+#hours{
+
+    background-color: #6c33da;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#minutes{
+
+    background-color: #6c33da;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+#seconds{
+
+    background-color: #6c33da;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+
+#Oferta:hover{
+
+    border-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: #f1881b;
+
+}
+
+
+
+
+
+
+/* Ajuste para pantallas más grandes */
+@media (min-width: 1024px) {
+    #Titulo1 {
+        font-size: 12px; 
+        color: #6c33da; 
+        text-transform: uppercase;
+    }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #Titulo1 {
+        font-size: 8px; 
+        color: #6c33da; 
+        text-transform: uppercase;
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    #Titulo1 {
+        font-size: 15px; 
+        color: #6c33da; 
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+    }
+}
+
+
+
+
+/* Ajuste para pantallas más grandes */
+@media (min-width: 1024px) {
+    #texto {
+        font-size: 50px; 
+        text-transform: uppercase;
+    }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #texto {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    #texto {
+        font-size: 25px;
+        text-transform: uppercase;
+
+
+    }
+}
+
+
+/* Ajuste para pantallas más grandes */
+@media (min-width: 1024px) {
+    .escribir {
+        white-space: pre; /* Mantener los saltos de línea */
+        display: flex; /* Para que el ancho se ajuste al texto */
+        overflow: hidden; /* Para ocultar el texto que no se ha mostrado */
+        justify-content: center;
+        text-align: center;
+    
+    }
+      
+      @keyframes parpadeo {
+        50% {
+          border-color: transparent; /* Cursor parpadeante */
+        }
+      }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .escribir {
+        white-space: pre; /* Mantener los saltos de línea */
+        display: flex; /* Para que el ancho se ajuste al texto */
+        overflow: hidden; /* Para ocultar el texto que no se ha mostrado */
+        justify-content: center;
+        text-align: center;
+    
+    }
+      
+      @keyframes parpadeo {
+        50% {
+          border-color: transparent; /* Cursor parpadeante */
+        }
+      }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .escribir {
+        white-space: pre; /* Mantener los saltos de línea */
+        display: flex; /* Para que el ancho se ajuste al texto */
+        overflow: hidden; /* Para ocultar el texto que no se ha mostrado */
+        justify-content: center;
+        text-align: center;
+    
+    }
+      
+      @keyframes parpadeo {
+        50% {
+          border-color: transparent; /* Cursor parpadeante */
+        }
+      }
+}
+
+
+
+
+/* Ajuste para pantallas más grandes */
+@media (min-width: 1024px) {
+    .countdown {
+        display: flex; /* Usar flexbox */
+        justify-content: center; /* Centrar los elementos horizontalmente */
+        align-items: center; /* Centrar los elementos verticalmente */
+        font-size: 90px;
+        margin: 20px;
+    }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .countdown {
+        display: flex; /* Usar flexbox */
+        justify-content: center; /* Centrar los elementos horizontalmente */
+        align-items: center; /* Centrar los elementos verticalmente */
+        font-size: 50px;
+        margin: 20px;
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .countdown {
+        display: flex; /* Usar flexbox */
+        justify-content: center; /* Centrar los elementos horizontalmente */
+        align-items: center; /* Centrar los elementos verticalmente */
+        font-size: 50px;
+        margin: 20px;
+    }
+}
+
+
+
+
+
+/* Ajuste para pantallas más grandes */
+@media (min-width: 1024px) {
+    .countdown div {
+        margin: 0 40px; /* Espaciado entre los elementos */
+    }
+}
+
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .countdown div {
+        margin: 0 10px; /* Espaciado entre los elementos */
+    }
+}
+
+/* Ajuste para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .countdown div {
+        margin: 0 10px; /* Espaciado entre los elementos */
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./Imagenes/Logo/VortexSudio3.png" />
+    <title>Vortex Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+
+    <header >
+        <div class="container" >
+            <div class="row" style="padding: 10px 0px 10px 0px;">
+            <nav class="navbar fixed-top navbar-expand-xxl" style="background-color:#6c33da; padding: 20px 0px;">
+                <div class="container" >
+                  <a class="navbar-brand" href="#"><img src="./Imagenes/Logo/VortexSudio.png" width="150px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <div class="collapse navbar-collapse d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block" id="navbarNavDropdown">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="offcanvas-body d-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-none">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Marketing Digital</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact2" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                <div class="col" >
+                    <h4 style="color: #6c33da; font-size: 30px;" class="escribir" id="texto" ><b></b></h4>
+                    <br>
+                    <p>Una página web ofrece visibilidad global, credibilidad y accesibilidad las 24 horas del día. Facilita la implementación de estrategias de marketing digital y la interacción directa con tus clientes. No te quedes atrás en el competitivo mercado actual; aprovecha todas las ventajas que una página web puede aportar a tu negocio o proyecto. Transformar tu presencia en línea es clave para el éxito y el crecimiento sostenible.</p>
+                    <p><b>¿Comenzamos con tu proyecto?</b></p>
+                    <br>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center;" >
+                    <img  src="./Extras/DesarrolloWeb.png" width="600px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <h4><b>Paquetes de diseño web para PyMEs y Emprendedores</b></h4>
+                    <p>Todos nuestros planes incluyen Dominio y Hosting por un año, certificado de seguridad SSL y páginas de política de privacidad y cookies.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="border: 2px solid #6c33da; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col" style=" padding-top: 20px;">
+                                                    <h4><b>Landing Page</b></h4>
+                                                    <p style="font-size: 12px;">Una Landing Page es una página web de una sola cara diseñada estratégicamente para captar la atención de los visitantes y motivarlos a realizar una acción específica, como comprar un producto, suscribirse a un servicio o completar un formulario.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                    <form>
+                                                        <a class="nav-link" href="">
+                                                            <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Presupuesto">
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="padding-top: 30px;">
+                                                <div class="col" style="padding-bottom: 40px; position: relative; ">
+                                                    <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Integración de herramientas y analítica</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Adaptabilidad y optimización</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Formularios de contacto y llamados a la acción</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Optimización para motores de búsqueda (SEO Básico)</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Dominio Gratis por un año</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Hosting gratis por un año</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Políticas de Cookies y demás páginas legales</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Botón de WhatsApp</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Correo Corporativo</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Botones a las redes sociales</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Imágenes de Stock</p>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                              <div class="col">
+                                                <p style="padding-top: 40px;">Página web ideal para, presentar un producto, ebook, captar leads, ofrecer una master class, etc.</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #6c33da; border:none; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col" style=" padding-top: 20px; color: #ffffff;">
+                                                    <h4><b>Tienda Online Básica</b></h4>
+                                                    <p style="font-size: 12px;">Tienda online de máximo 50 productos</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                    <form>
+                                                        <a class="nav-link" href="">
+                                                            <input style="background-color: #ffffff; color: #000000; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Presupuesto">
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="padding-top: 30px;">
+                                                <div class="col" style="padding-bottom: 40px; position: relative; color: #ffffff;">
+                                                    <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Dominio gratis por un año</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Hosting Gratis por un año</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Botones a las redes sociales</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>5 cuentas de correos corporativos</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Todas las políticas legales</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Actualizaciones gratis por 4 meses</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Optimización para motores de búsqueda (SEO Básico)</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Botón de WhatsApp</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Configuración de pasarelas de pago/p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Plugins premium</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Imágenes de Stock</p>
+                                                    <p style="display: flex; align-items: center; font-size: 12px;"  ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Auto gestionable</p>
+                                                </div>
+                                            </div>
+                                            <div class="row" style=" border-top: 2px solid #ffffff;">
+                                              <div class="col">
+                                                <p style="padding-top: 40px; color: #ffffff;">No incluye:</p>
+                                                <p style="color: #ffffff; text-align: center;"><b>Subida de nuevos productos durante los meses de actualización</b></p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="border:none; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                      <div class="container">
+                                        <div class="row">
+                                            <div class="col" style=" padding-top: 20px;">
+                                                <h4><b>Página Web Corporativa</b></h4>
+                                                <p style="font-size: 12px;">Sitio web con 4 secciones (home, quienes somos, servicios y contacto)</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                <form>
+                                                    <a class="nav-link" href="">
+                                                        <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Presupuesto">
+                                                    </a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="padding-top: 30px;">
+                                          <div class="col" style="padding-bottom: 40px; position: relative;">
+                                            <p style="display: flex; align-items: center; font-size: 12px;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Dominio gratis por un año</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Hosting gratis por un año</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>3 cuentas de correos corporativos</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Todas las políticas legales</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Actualizaciones gratis por 3 meses</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Optimización para motores de búsqueda (SEO Básico)</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Botón de WhatsApp</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Imágenes de Stock</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Integración de herramientas y analítica</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Botones de redes sociales</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Plugins Premium</p>
+                                            <p style="display: flex; align-items: center; font-size: 12px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Adaptabilidad y optimización</p>
+                                        </div>
+                                        </div>
+                                        <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                          <div class="col">
+                                            <p style="padding-top: 40px;"><b>Página web ideal para: Pequeñas empresas locales, servicios profesionales, restaurantes, etc.</b></p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="container" style="display: flex; justify-content: center; justify-items: center;">
+            <div class="row" >
+                <div class="col" >
+                    <div class="card" style="width: 700px; margin: auto; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212); border: none; border-radius: 20px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col" style="text-align: center;">
+                                        <h4 style="padding-bottom: 30px;"><b>Experiencia en WordPress, el CMS Líder</b></h4>
+                                        <p>Contamos con más de 5 años de experiencia trabajando en WordPress, el CMS más utilizado a nivel mundial. Nuestra trayectoria en esta plataforma nos permite ofrecer soluciones efectivas y resultados probados.</p>
+                                        <img src="./Extras/LogoWorlpress.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="border: none; background-color: #ebebeb; border-radius: 0px;">
+                      <div class="card-body" style="padding:30px 0px;">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col" style="text-align: center; padding-bottom: 40px;">
+                                <h4><b>Preguntas Frecuentes sobre los paquetes de diseño web</b></h4>
+                              </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Cuál es la diferencia entre un paquete de diseño web básico y uno avanzado?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample1">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>La diferencia principal entre un paquete de diseño web básico y uno avanzado radica en la cantidad de características y servicios ofrecidos. Un paquete básico puede incluir un diseño sencillo, funcionalidades limitadas y servicios mínimos, mientras que un paquete avanzado puede ofrecer diseños más elaborados, funcionalidades avanzadas, y otras integraciones.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Cuánto tiempo tardan en diseñar mi página web?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>El tiempo necesario para completar el proceso de diseño web con un paquete estándar puede variar dependiendo de varios factores, como la complejidad del diseño, la cantidad de contenido a incluir y la rapidez en la comunicación que tengamos contigo. Sin embargo, en general, el proceso puede tomar entre 2 y 6 semanas, desde la planificación inicial hasta el lanzamiento del sitio web.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Cuál es el proceso de trabajo para el diseño y desarrollo de mi sitio web?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample3">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>Nuestro proceso de trabajo típico incluye las siguientes etapas: análisis de requisitos, diseño conceptual, desarrollo de la estructura y las características del sitio web, revisión y aprobación por parte del cliente, pruebas de funcionamiento y optimización final antes del lanzamiento.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>Ya cuento con dominio, ¿qué pasa con el que viene en el paquete?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample4">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>Si ya cuentas con un dominio, no hay problema, usaremos tu dominio principal, y seguirás teniendo la opción de obtener el otro dominio durante un año.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué sucede si no estoy satisfecho con el resultado final?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample5">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Nuestro objetivo principal es garantizar la satisfacción del cliente. Trabajaremos estrechamente contigo durante todo el proceso de diseño web para asegurarnos de que tus expectativas se cumplan. Si no estás satisfecho con el resultado final, estaremos abiertos a realizar revisiones y ajustes necesarios para alcanzar tu satisfacción.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Ofrecen algún tipo de soporte o mantenimiento después de que se complete el proyecto?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample6">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Sí, podemos ofrecerte servicios de soporte y mantenimiento después de completar el proyecto. Podemos discutir opciones como actualizaciones regulares, solución de problemas técnicos o mejoras adicionales para tu sitio web.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Cuál es la forma de pago?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample7">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Nuestro objetivo es brindarte un presupuesto completo que abarque todos los aspectos del diseño y desarrollo de tu sitio web. Para facilitar el proceso de pago, ofrecemos varias opciones, como tarjetas de débito o crédito y PayPal.
+                                            El pago se divide en dos partes: un abono inicial del 60% se realiza al comenzar el proyecto, y el 40% restante se abona al finalizar el proyecto, justo antes de la entrega final de la página web.
+                                            Es importante destacar que la página web no estará accesible en el dominio principal hasta que se haya realizado el pago total del diseño. Esto garantiza un proceso justo tanto para nosotros como para ti, y nos asegura que podemos entregar un producto de alta calidad.
+                                            Si tienes alguna otra pregunta o inquietud, no dudes en hacérmela saber.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Proporcionan servicios de hosting y registro de dominio?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample8">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Si nuestros planes ya vienen con el registro de dominio y hosting gratis por un año, todos estos registros los hacemos a tu nombre.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Tendré acceso al panel de administración del sitio web?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample9">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Sí, si el paquete de diseño web incluye un sistema de gestión de contenido (CMS), te proporcionaremos acceso al panel de administración. Esto te permitirá actualizar y modificar el contenido de tu sitio web de manera fácil y autónoma.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Puedo realizar cambios en el diseño una vez que se haya completado?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample10">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Entendemos que es posible que surjan cambios o actualizaciones después de que el proyecto esté completo. Por esa razón, ofrecemos un periodo de soporte gratuito de 3 a 6 meses, dependiendo del plan seleccionado. Durante este tiempo, estaremos disponibles para ayudarte con cualquier problema relacionado con la página web, siempre y cuando no haya sido modificada internamente por un tercero. Es importante tener en cuenta que no nos hacemos responsables de daños o configuraciones incorrectas realizadas por personas ajenas a nuestro equipo.
+                                            Una vez finalizado el periodo de soporte gratuito, podemos ofrecerte opciones para realizar cambios en el diseño y ajustes adicionales. Sin embargo, considera que podrían aplicarse cargos adicionales según la naturaleza y el alcance de los cambios solicitados.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Se ofrecen servicios adicionales, como diseño de logotipos o marketing digital?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample11">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Sí, podemos ofrecerte servicios adicionales como diseño de logotipos, marketing digital, optimización de redes sociales y otros servicios relacionados. Podemos discutir tus necesidades específicas y proporcionarte soluciones personalizadas.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                    <p class="d-inline-flex " >
+                                      <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué medidas de seguridad se implementarán en mi sitio web?
+                                      </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample12">
+                                      <div class="card card-body" style="background-color: transparent; border: none;">
+                                        <p>Implementaremos medidas de seguridad básicas para proteger tu sitio web contra posibles amenazas, como la instalación de certificados SSL, la configuración de contraseñas seguras y la implementación de prácticas de seguridad recomendadas.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <br>
+    <script>
+      const texto = "Un sitio web es la solución perfecta\npara tu negocio en línea";
+      const elemento = document.getElementById("texto");
+      let index = 0;
+
+      function escribirTexto() {
+      if (index < texto.length) {
+          elemento.textContent += texto.charAt(index); // Agregar una letra
+          index++;
+          setTimeout(escribirTexto, 80); // Esperar 100ms antes de la siguiente letra
+      } else {
+          elemento.innerHTML += '<span class="cursor"></span>'; // Añadir el cursor al final
+      }
+      }
+
+      escribirTexto();
+
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

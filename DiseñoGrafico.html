@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./Imagenes/Logo/VortexSudio3.png" />
+    <title>Vortex Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+
+    <header >
+        <div class="container" >
+            <div class="row" style="padding: 10px 0px 10px 0px;">
+            <nav class="navbar fixed-top navbar-expand-xxl" style="background-color:#6c33da; padding: 20px 0px;">
+                <div class="container" >
+                  <a class="navbar-brand" href="#"><img src="./Imagenes/Logo/VortexSudio.png" width="150px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <div class="collapse navbar-collapse d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block" id="navbarNavDropdown">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="offcanvas-body d-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-none">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Sobre Nosotros</a>
+                        </li>
+                        
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Marketing Digital</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact2" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                <div class="col" >
+                    <h4 style="color: #6c33da; font-size: 40px;" class="escribir" id="texto" ><b></b></h4>
+                    <br>
+                    <p>En el entorno digital actual, la imagen es fundamental. Nuestros servicios de diseño gráfico están diseñados para dotarte de las herramientas necesarias para fortalecer tu presencia online y diferenciarte en el mercado.</p>
+                    <p>Al adquirir uno de nuestros planes, recibirás un desarrollo integral de marca que garantizará que tu negocio sobresalga. Desde la creación de un manual de identidad corporativa detallado hasta la selección de una paleta de colores atractiva y tipografías exclusivas, colaboraremos estrechamente contigo para construir una imagen de marca que refleje la esencia y valores de tu negocio.</p>
+                    <p><b>¿Comenzamos con tu proyecto?</b></p>
+                    <br>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center;" >
+                    <img  src="./Extras/Crea Tu Marca.jfif" width="500px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <h4><b>Paquetes de Branding y Diseño Gráfico</b></h4>
+                    <p>Todos nuestros paquetes de Diseño Gráfico incluyen los archivos editables (.psd .ai .eps) y finales (.jpg .png .pdf)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="border: 2px solid #6c33da; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col" style=" padding-top: 20px;">
+                                                    <h4><b>Paquete solo Logo</b></h4>
+                                                    <p>Impulsa tu marca con este paquete esencial</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; align-items: center ; position: relative;">
+                                                    <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                    <p style="font-size: 60px;">250</p>
+                                                    <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/USD</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                    <form>
+                                                        <a class="nav-link" href="">
+                                                            <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Quiero esta Oferta">
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="padding-top: 30px;">
+                                                <div class="col" style="padding-bottom: 40px; position: relative; ">
+                                                    <p style="display: flex; align-items: center;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Construcción de marca.</p>
+                                                    <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Manual corporativo.</p>
+                                                    <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Paleta de colores usadas.</p>
+                                                    <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Tipografías utilizadas.</p>
+                                                    <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Entrega de archivos</p>
+                                                    <p style="position: absolute; bottom: 20px;">( PNG, JPEG, vectorial y editable.)</p>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                              <div class="col">
+                                                <p style="padding-top: 40px;">Tiempo estimado de entrega 15 días</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="background-color: #6c33da; border:none; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                      <div class="container">
+                                        <div class="row">
+                                            <div class="col" style="color: #ffffff; padding-top: 20px;">
+                                                <h4><b>Paquete Emprendedor</b></h4>
+                                                <p>Construye una presencia en línea completa</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; align-items: center ; position: relative; color: #ffffff;">
+                                                <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                <p style="font-size: 60px;">300</p>
+                                                <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                <form>
+                                                    <a class="nav-link" href="">
+                                                        <input style="background-color: #ffffff; color: #000000; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Comprar paquete">
+                                                    </a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="padding-top: 30px;">
+                                            <div class="col" style="padding-bottom: 40px; position: relative; color: #ffffff;">
+                                                <p style="display: flex; align-items: center;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Construcción de marca.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Manual corporativo.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Paleta de colores usadas.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Tipografías utilizadas.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Usos correctos e incorrectos del logo.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>2 mockups de marca.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>1 diseño de tarjeta de presentación.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>1 flyer publicitario.</p>
+                                                <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Entrega de archivos</p>
+                                                <p style="position: absolute; bottom: 20px;"> ( PNG, JPEG, vectorial y editable.)</p>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="text-align: center; border-top: 2px solid #ffffff;">
+                                          <div class="col" style="color: #ffffff;">
+                                            <p style="padding-top: 40px;">Tiempo estimado de entrega 20 días</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="border:none; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                      <div class="container">
+                                        <div class="row">
+                                            <div class="col" style=" padding-top: 20px;">
+                                                <h4><b>Paquete Diseño Premium</b></h4>
+                                                <p>Desata el potencial de tu negocio</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; align-items: center ; position: relative;">
+                                                <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                <p style="font-size: 60px;">380</p>
+                                                <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                <form>
+                                                    <a class="nav-link" href="">
+                                                        <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Quiero esta Oferta">
+                                                    </a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="padding-top: 30px;">
+                                          <div class="col" style="padding-bottom: 40px; position: relative;">
+                                            <p style="display: flex; align-items: center;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Construcción de marca.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Manual corporativo.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Paleta de colores usadas.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Tipografías utilizadas.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Usos correctos e incorrectos del logo.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>4 mockups de marca.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>1 diseño de tarjeta de presentación.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>1 flyer publicitario.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #ffffff; font-size: 8px;"></i>3 diseños para post en Instagram.</p>
+                                            <p style="display: flex; align-items: center;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #ffffff; font-size: 8px;"></i>Entrega de archivos</p>
+                                            <p style="position: absolute; bottom: 20px;"> ( PNG, JPEG, vectorial y editable.)</p>
+                                        </div>
+                                        </div>
+                                        <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                          <div class="col">
+                                            <p style="padding-top: 40px;">Tiempo estimado de entrega 20 días</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="border: none; background-color: #ebebeb; border-radius: 0px;">
+                      <div class="card-body" style="padding:30px 0px;">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col" style="text-align: center; padding-bottom: 40px;">
+                                <p>¿Tienes Dudas?</p>
+                                <h4><b>Preguntas frecuentes sobre Diseño Gráfico</b></h4>
+                              </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué es un manual de identidad corporativa?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample1">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>El manual de identidad corporativa es un documento que define los principales elementos gráficos de la marca y cómo deben ser utilizados y aplicados en cualquier soporte.</p>
+                                      <p>El manual de identidad corporativa muestra la apariencia del logo, los colores de la empresa y la fuente que se debe utilizar en cada caso. En él se reúnen todos los elementos que constituyen el efecto visual de tu marca.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué es una paleta de colores?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>En una marca, la paleta cromática corresponde al conjunto de colores o tonalidades, que forman parte de su imagen corporativa y que han sido seleccionados coherentemente para generar una identidad propia y única.</p>
+                                      <p>La paleta de colores, una vez seleccionada según la personalidad de la marca y sus objetivos de comunicación, ayudarán a darle el tono adecuado al mensaje de marca que le hará conectar con su público objetivo.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Por qué es importante contar con un manual de identidad corporativa?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample3">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>Contar con un manual de identidad corporativa es fundamental para construir y mantener una imagen coherente y consistente de la marca. A través de este documento, se establecen las normas para la utilización de los elementos gráficos de la marca, lo que ayuda a evitar errores y confusiones en su uso.</p>
+                                      <p>Además, permite que cualquier persona que utilice estos elementos tenga una guía clara y precisa de cómo deben ser utilizados, lo que facilita la creación de contenidos y piezas publicitarias.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Para qué sirve la tipografía en una marca?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample4">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>La tipografía es un elemento visual de la guía de estilo de la marca, que organiza la copia escrita de tu empresa de una manera legible, que trasmita de la manera más adecuada y alinea el mensaje con la personalidad de tu marca.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <br>
+    <script>
+      const texto = "Potencia tu presencia online.";
+      const elemento = document.getElementById("texto");
+      let index = 0;
+
+      function escribirTexto() {
+      if (index < texto.length) {
+          elemento.textContent += texto.charAt(index); // Agregar una letra
+          index++;
+          setTimeout(escribirTexto, 80); // Esperar 100ms antes de la siguiente letra
+      } else {
+          elemento.innerHTML += '<span class="cursor"></span>'; // Añadir el cursor al final
+      }
+      }
+
+      escribirTexto();
+
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

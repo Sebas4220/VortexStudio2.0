@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./Imagenes/Logo/VortexSudio3.png" />
+    <title>Vortex Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+
+    <header >
+        <div class="container" >
+            <div class="row" style="padding: 10px 0px 10px 0px;">
+            <nav class="navbar fixed-top navbar-expand-xxl" style="background-color:#6c33da; padding: 20px 0px;">
+                <div class="container" >
+                  <a class="navbar-brand" href="#"><img src="./Imagenes/Logo/VortexSudio.png" width="150px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   
+                    <div class="collapse navbar-collapse d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block" id="navbarNavDropdown">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="offcanvas-body d-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-none">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Sobre Nosotros</a>
+                        </li>
+                        
+                        <li class="nav-item" >
+                          <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Menu" aria-current="page" href="#">Marketing Digital</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoGrafico.html">Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./DiseñoWeb.html">Diseño Web</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="./GestiondeRedeSociales.html">Gestión de Redes Sociales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="Servicio" aria-expanded="false">
+                              Proyectos
+                            </a>
+                            <ul class="dropdown-menu" style="text-align: center;">
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Gráfico</a></li>
+                              <li><a class="dropdown-item" id="Submenu" href="#">Portafolio de Diseño Web</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item" >
+                            <a style="display: flex; justify-content: center; align-items: center;" class="nav-link" id="Contact2" aria-current="page" href="#"><i class="bi bi-whatsapp" style="margin-right: 3px;"></i>Contactanos<i class="bi bi-whatsapp" style="margin-left: 3px;"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                <div class="col" >
+                    <h4 style="color: #6c33da; font-size: 40px;" class="escribir" id="texto" ><b></b></h4>
+                    <br>
+                    <p>Las redes sociales ofrecen una amplia gama de beneficios para las empresas que desean fortalecer su presencia en línea. Implementar una estrategia sólida en las redes sociales puede marcar la diferencia en el éxito de tu negocio en el mundo digital.</p>
+                    <p>Estas plataformas ofrecen una oportunidad única para que las empresas se conecten directamente con su audiencia objetivo, aumenten su visibilidad en línea y promocionen sus productos y servicios de manera efectiva.</p>
+                    <p><b>Sigue leyendo para que conozcas los beneficios de las redes sociales y nuestros mejores planes</b></p>
+                    <br>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center;" >
+                    <img  src="./Extras/Social-Media.jpg" width="500px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+    <section>
+        <div class="container-fluid" style="margin: 0; padding: 0;">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 0px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col" style="text-align: center; padding: 30px 0px;">
+                                        <h1><b>Beneficios de nuestros Planes Social Media</b></h1>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 40px 0px; border-top: 2px solid #6c33da ;">
+                                    <div class="col">
+                                        <h2>01</h2>
+                                        <h4><b>Mayor visibilidad y alcance</b></h4>
+                                    </div>
+                                    <div class="col"  style="display: grid; place-items: center;">
+                                        <p>Con miles de millones de usuarios activos en las redes sociales, estas plataformas ofrecen una oportunidad única para llegar a una audiencia global y aumentar la visibilidad de tu marca.</p>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 40px 0px; border-top: 2px solid #6c33da ;">
+                                    <div class="col">
+                                        <h2>02</h2>
+                                        <h4><b>Interacción directa con los clientes</b></h4>
+                                    </div>
+                                    <div class="col"  style="display: grid; place-items: center;">
+                                        <p>Las redes sociales permiten a las empresas establecer un diálogo directo con sus clientes, lo que les brinda la oportunidad de responder preguntas, resolver problemas y construir relaciones sólidas..</p>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 40px 0px; border-top: 2px solid #6c33da ;">
+                                    <div class="col">
+                                        <h2>03</h2>
+                                        <h4><b>Promoción efectiva de productos y servicios</b></h4>
+                                    </div>
+                                    <div class="col"  style="display: grid; place-items: center;">
+                                        <p>Mediante el uso de estrategias de marketing creativas, las empresas pueden promocionar sus productos y servicios de manera efectiva en las redes sociales, captando la atención de su audiencia objetivo y generando interés en lo que ofrecen..</p>
+                                    </div>
+                                </div>
+                                <div class="row" style="padding: 40px 0px; border-top: 2px solid #6c33da ; border-bottom: 2px solid #6c33da ;">
+                                    <div class="col">
+                                        <h2>04</h2>
+                                        <h4><b>Generación de tráfico hacia tu sitio web</b></h4>
+                                    </div>
+                                    <div class="col"  style="display: grid; place-items: center;">
+                                        <p>Al compartir contenido relevante y valioso en las redes sociales, puedes dirigir el tráfico hacia tu sitio web, lo que puede aumentar las oportunidades de conversión y ventas..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center; padding-bottom: 40px;">
+                    <p><b>Maximiza tu Presencia online con</b></p>
+                    <h4><b>Nuestros Planes de Social Media</b></h4>
+                    <p>Gestionar eficientemente las redes sociales puede resultar desafiante y consumir mucho tiempo. Nuestros planes de social media están diseñados para ayudarte a superar estos desafíos y alcanzar tus objetivos en línea.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="border: 2px solid #6c33da; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col" style=" padding-top: 20px;">
+                                                    <h4><b>Pack Piloto</b></h4>
+                                                    <p><b>Impulsa tu Presencia en Redes Sociales</b></p>
+                                                    <p>El Pack Piloto es perfecto para aquellos que buscan dar los primeros pasos en el mundo de las redes sociales. Con este plan, te ofrecemos:</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; align-items: center ; position: relative;">
+                                                    <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                    <p style="font-size: 60px;">220</p>
+                                                    <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/Mes</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                    <form>
+                                                        <a class="nav-link" href="">
+                                                            <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Quiero esta Oferta">
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="padding-top: 30px;">
+                                                <div class="col" style="padding-bottom: 40px; position: relative; ">
+                                                    <p style="display: flex; align-items: center; font-size: 14px;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>12 diseños Post y Stories al mes (3 semanales).</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Creación y redacción de contenido mensual.</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión mensual de Instagram.</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión de publicidad ADS (no incluye inversión).</p>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                              <div class="col">
+                                                <p style="padding-top: 40px;">GRATIS: Renovación de 5 portadas destacadas</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="border: 2px solid #6c33da; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col" style=" padding-top: 20px;">
+                                                    <h4><b>Pack Jet</b></h4>
+                                                    <p><b>Impulsa tu Marca al Siguiente Nivel</b></p>
+                                                    <p>Si estás buscando un plan más completo que te ayude a destacar en las redes sociales, el Pack Jet es la elección perfecta. Este plan incluye:</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; align-items: center ; position: relative;">
+                                                    <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                    <p style="font-size: 60px;">330</p>
+                                                    <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/Mes</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                    <form>
+                                                        <a class="nav-link" href="">
+                                                            <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Quiero esta Oferta">
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="padding-top: 30px;">
+                                                <div class="col" style="padding-bottom: 40px; position: relative; ">
+                                                    <p style="display: flex; align-items: center; font-size: 14px;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>16 diseños Post y Stories al mes (4 semanales).</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Creación y redacción de contenido mensual.</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión mensual de Instagram.</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión de publicidad ADS (no incluye inversión).</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>3 diseños extra de Stories publicitarios.</p>
+                                                    <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="display: flex; align-items: center; margin-right: 5px; color: #6c33da; font-size: 8px;"></i>4 Reels al mes (1 Reel semanal).</p>
+                                                    <p style="position: absolute; bottom: 20px;">( PNG, JPEG, vectorial y editable.)</p>
+                                                </div>
+                                            </div>
+                                            <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                              <div class="col">
+                                                <p style="padding-top: 40px;">GRATIS: Renovación de 5 portadas destacadas</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card" style="border:none; border-radius: 10px; box-shadow: 0px 0px 20px 5px rgb(212, 212, 212);">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                      <div class="container">
+                                        <div class="row">
+                                            <div class="col" style=" padding-top: 20px;">
+                                                <h4><b>Pack Power</b></h4>
+                                                <p>Domina las Redes Sociales con Efectividad</p>
+                                                <p>El Pack Power es la solución ideal para aquellos que buscan una estrategia de redes sociales completa y efectiva. Con este plan, obtendrás:</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; align-items: center ; position: relative;">
+                                                <p style="font-size: 20px; position: absolute; left: 0px; top: 20px;">$</p>
+                                                <p style="font-size: 60px;">450</p>
+                                                <p style="font-size: 20px; position: absolute; left: 115px; bottom: 15px;">/Mes</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                                <form>
+                                                    <a class="nav-link" href="">
+                                                        <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Quiero esta Oferta">
+                                                    </a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="padding-top: 30px;">
+                                          <div class="col" style="padding-bottom: 40px; position: relative;">
+                                            <p style="display: flex; align-items: center; font-size: 14px;"><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>16 diseños Post y Stories al mes (4 semanales).</p>
+                                            <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Creación y redacción de contenido mensual.</p>
+                                            <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión mensual de Instagram & Facebook.</p>
+                                            <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>Gestión de publicidad ADS (no incluye inversión).</p>
+                                            <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>4 diseños extra de Stories publicitarios .</p>
+                                            <p style="display: flex; align-items: center; font-size: 14px;" ><i class="bi bi-circle-fill" style="margin-right: 5px; color: #6c33da; font-size: 8px;"></i>8 Reels al mes (2 Reels semanales).</p>
+                                        </div>
+                                        </div>
+                                        <div class="row" style="text-align: center; border-top: 2px solid #6c33da;">
+                                          <div class="col">
+                                            <p style="padding-top: 40px;">GRATIS: Renovación de 5 portadas destacadas</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center; padding-bottom: 40px;">
+                    <h4><b>Paquete especial para Instagram</b></h4>
+                    <p>Imágenes de alta calidad diseñadas para destacar en tu perfil. Con este paquete, obtendrás un flujo constante de contenido visualmente atractivo, lo que te ayudará a fortalecer tu marca en Instagram y atraer a más seguidores.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center; ">
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 40px; width: 420px; height: 300px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col">
+                                        <h4><b>Paquete de 6 imágenes</b></h4>
+                                        <p>Imágenes únicas y creativas para tus publicaciones regulares.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: grid; place-items: center; align-items: center ; position: relative;">
+                                        <p style="font-size: 20px; position: absolute; left: 150px; top: 20px;">$</p>
+                                        <p style="font-size: 60px;">70</p>
+                                        <p style="font-size: 20px; position: absolute; left: 220px; bottom: 15px;">.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                        <form>
+                                            <a class="nav-link" href="">
+                                                <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Adquirir">
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center; ">
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 40px; width: 420px; height: 300px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col">
+                                        <h4><b>Paquete de 12 imágenes</b></h4>
+                                        <p>Mantén a tus seguidores comprometidos.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: grid; place-items: center; align-items: center ; position: relative;">
+                                        <p style="font-size: 20px; position: absolute; left: 135px; top: 20px;">$</p>
+                                        <p style="font-size: 60px;">132</p>
+                                        <p style="font-size: 20px; position: absolute; left: 240px; bottom: 15px;">.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                        <form>
+                                            <a class="nav-link" href="">
+                                                <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Adquirir">
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;  padding-top: 30px;">
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 40px; width: 420px; height: 300px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col">
+                                        <h4><b>Paquete de 15 imágenes</b></h4>
+                                        <p>Diseños excepcionales en un solo paquete.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: grid; place-items: center; align-items: center ; position: relative;">
+                                        <p style="font-size: 20px; position: absolute; left: 135px; top: 20px;">$</p>
+                                        <p style="font-size: 60px;">157</p>
+                                        <p style="font-size: 20px; position: absolute; left: 230px; bottom: 15px;">.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                        <form>
+                                            <a class="nav-link" href="">
+                                                <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Adquirir">
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 30px; ">
+                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center; "> 
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 40px; width: 420px; height: 300px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col">
+                                        <h4><b>Paquete de 20 imágenes</b></h4>
+                                        <p>Cuidadosamente diseñadas para reflejar tu estilo y mensaje.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: grid; place-items: center; align-items: center ; position: relative;">
+                                        <p style="font-size: 20px; position: absolute; left: 135px; top: 20px;">$</p>
+                                        <p style="font-size: 60px;">200</p>
+                                        <p style="font-size: 20px; position: absolute; left: 240px; bottom: 15px;">.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                        <form>
+                                            <a class="nav-link" href="">
+                                                <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Adquirir">
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center; ">
+                    <div class="card" style="border: none; background-color: #ebebeb; border-radius: 40px; width: 420px; height: 300px;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row" style="text-align: center;">
+                                    <div class="col" >
+                                        <h4><b>Paquete de 24 imágenes</b></h4>
+                                        <p>Nunca te quedarás sin contenido.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: grid; place-items: center; align-items: center ; position: relative;">
+                                        <p style="font-size: 20px; position: absolute; left: 135px; top: 20px;">$</p>
+                                        <p style="font-size: 60px;">228</p>
+                                        <p style="font-size: 20px; position: absolute; left: 240px; bottom: 15px;">.00</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col" style="display: flex; justify-content: center; align-items: center; justify-items: center;">
+                                        <form>
+                                            <a class="nav-link" href="">
+                                                <input style="background-color: #6c33da; color: #ffffff; padding: 10px 80px; border: none; border-radius: 20px;  " type="button" value="Adquirir">
+                                            </a>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <p>Busca diferenciarte</p>
+                    <h4>
+                        <b>
+                            ¿Por qué contratar nuestro Plan Social Media?
+                        </b>
+                    </h4>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-phone" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Maximiza tu presencia en redes sociales</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Nuestros planes de social media te brindan todas las herramientas necesarias para maximizar tu presencia en las redes sociales. Desde el diseño de publicaciones atractivas hasta la gestión de anuncios publicitarios, te ayudamos a destacar y captar la atención de tu audiencia objetivo.</p>
+                </div>
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-stars" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Contenido relevante y cautivador</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Creamos contenido relevante y valioso para tus publicaciones. Nos aseguramos de que tus mensajes resuenen con tu audiencia y generen interés en tus productos o servicios.</p>
+                </div>
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-person-fill-gear" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Gestión y optimización de tu cuenta</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Nos encargamos de la gestión mensual de tus perfiles en redes sociales, incluyendo Instagram y Facebook. Optimizamos tus perfiles, aumentamos tu visibilidad y participación, y te ayudamos a construir relaciones sólidas con tu audiencia.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-badge-ad" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Publicidad efectiva</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Puedes incluir en tu plan la gestión de publicidad ADS en las redes sociales, lo que te permitirá alcanzar a tu audiencia objetivo de manera efectiva. Optimizamos tus anuncios para maximizar su impacto.</p>
+                </div>
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-brush-fill" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Diseños atractivos y personalizados</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Creamos diseños de alta calidad para tus publicaciones, asegurando que se destaquen en el mar de contenido de las redes sociales. Desde imágenes de post hasta historias y reels, nos aseguramos de que tu contenido sea atractivo y llamativo.</p>
+                </div>
+                <div class="col" >
+                    <h5 style="font-size: 23px; display: flex; align-items: center;"><i class="bi bi-x-diamond-fill" style="display: flex; justify-items: center; justify-content: center; align-content: center; align-items: center; margin-right: 10px; font-size: 40px; color: #6c33da;"></i>Renovación gratuita de portadas destacadas</h5>
+                    <p style="font-size: 15px; padding-top: 5px;">Mantenemos la apariencia fresca y atractiva de tu perfil en las redes sociales mediante la renovación periódica de tus portadas destacadas. Esto ayuda a mantener el interés de tu audiencia y refleja una imagen profesional y actualizada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section>
+      <div class="container-fluid" style="margin: 0; padding: 0;">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="border: none; background-color: #ebebeb; border-radius: 0px;">
+                      <div class="card-body" style="padding:30px 0px;">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col" style="text-align: center; padding-bottom: 40px;">
+                                <p>¿Tienes Dudas?</p>
+                                <h4><b>Preguntas frecuentes sobre Diseño Gráfico</b></h4>
+                              </div>
+                            </div>
+                              <div class="row">
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué es un manual de identidad corporativa?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample1">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>El manual de identidad corporativa es un documento que define los principales elementos gráficos de la marca y cómo deben ser utilizados y aplicados en cualquier soporte.</p>
+                                      <p>El manual de identidad corporativa muestra la apariencia del logo, los colores de la empresa y la fuente que se debe utilizar en cada caso. En él se reúnen todos los elementos que constituyen el efecto visual de tu marca.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Qué es una paleta de colores?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>En una marca, la paleta cromática corresponde al conjunto de colores o tonalidades, que forman parte de su imagen corporativa y que han sido seleccionados coherentemente para generar una identidad propia y única.</p>
+                                      <p>La paleta de colores, una vez seleccionada según la personalidad de la marca y sus objetivos de comunicación, ayudarán a darle el tono adecuado al mensaje de marca que le hará conectar con su público objetivo.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Por qué es importante contar con un manual de identidad corporativa?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample3">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>Contar con un manual de identidad corporativa es fundamental para construir y mantener una imagen coherente y consistente de la marca. A través de este documento, se establecen las normas para la utilización de los elementos gráficos de la marca, lo que ayuda a evitar errores y confusiones en su uso.</p>
+                                      <p>Además, permite que cualquier persona que utilice estos elementos tenga una guía clara y precisa de cómo deben ser utilizados, lo que facilita la creación de contenidos y piezas publicitarias.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-6" style="text-align: center; background-color: #ffffff;  width: 600px;  margin: auto; margin-bottom: 40px ; border-radius: 30px;">
+                                  <p class="d-inline-flex " >
+                                    <a class="nav-link" style="font-size: 15px; padding-top:20px ;" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      <i class="bi bi-exclamation-diamond-fill" style="color: #6c33da; margin-right: 10px;"></i>¿Para qué sirve la tipografía en una marca?
+                                    </a>
+                                  </p>
+                                  <div class="collapse" id="collapseExample4">
+                                    <div class="card card-body" style="background-color: transparent; border: none;">
+                                      <p>La tipografía es un elemento visual de la guía de estilo de la marca, que organiza la copia escrita de tu empresa de una manera legible, que trasmita de la manera más adecuada y alinea el mensaje con la personalidad de tu marca.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <br>
+    <script>
+      const texto = "Eleva el poder de tus\nRedes Sociales";
+      const elemento = document.getElementById("texto");
+      let index = 0;
+
+      function escribirTexto() {
+      if (index < texto.length) {
+          elemento.textContent += texto.charAt(index); // Agregar una letra
+          index++;
+          setTimeout(escribirTexto, 80); // Esperar 100ms antes de la siguiente letra
+      } else {
+          elemento.innerHTML += '<span class="cursor"></span>'; // Añadir el cursor al final
+      }
+      }
+
+      escribirTexto();
+
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
